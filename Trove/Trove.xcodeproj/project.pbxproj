@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C2BF24E15FF817800876710 /* GridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2BF24D15FF817800876710 /* GridView.m */; };
+		4C2BF25215FF953800876710 /* GridViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2BF25115FF953800876710 /* GridViewCell.m */; };
+		4C80FB3115FD2711004ABC94 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C80FB3015FD2711004ABC94 /* UIKit.framework */; };
+		4C80FB3315FD2711004ABC94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C80FB3215FD2711004ABC94 /* Foundation.framework */; };
+		4C80FB3515FD2711004ABC94 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C80FB3415FD2711004ABC94 /* CoreGraphics.framework */; };
+		4C80FB3B15FD2711004ABC94 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C80FB3915FD2711004ABC94 /* InfoPlist.strings */; };
+		4C80FB3D15FD2711004ABC94 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C80FB3C15FD2711004ABC94 /* main.m */; };
+		4C80FB4115FD2711004ABC94 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C80FB4015FD2711004ABC94 /* AppDelegate.m */; };
+		4C80FB4415FD2711004ABC94 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C80FB4215FD2711004ABC94 /* MainStoryboard_iPhone.storyboard */; };
+		4C80FB4715FD2711004ABC94 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C80FB4515FD2711004ABC94 /* MainStoryboard_iPad.storyboard */; };
+		4C80FB4A15FD2711004ABC94 /* AlbumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C80FB4915FD2711004ABC94 /* AlbumViewController.m */; };
+		4C80FB5215FD2713004ABC94 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C80FB5115FD2713004ABC94 /* SenTestingKit.framework */; };
+		4C80FB5315FD2713004ABC94 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C80FB3015FD2711004ABC94 /* UIKit.framework */; };
+		4C80FB5415FD2713004ABC94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C80FB3215FD2711004ABC94 /* Foundation.framework */; };
+		4C80FB5C15FD2713004ABC94 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C80FB5A15FD2713004ABC94 /* InfoPlist.strings */; };
+		4C80FB5F15FD2713004ABC94 /* TroveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C80FB5E15FD2713004ABC94 /* TroveTests.m */; };
+		4C80FB6F15FD2BB1004ABC94 /* TroveDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4C80FB6D15FD2BB1004ABC94 /* TroveDataModel.xcdatamodeld */; };
+		4C80FB7D15FD30A2004ABC94 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C80FB7C15FD30A2004ABC94 /* CoreData.framework */; };
+		4C80FB7F15FD3263004ABC94 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C80FB7E15FD3263004ABC94 /* AssetsLibrary.framework */; };
+		4C80FB8215FD34E3004ABC94 /* Print.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C80FB8115FD34E3004ABC94 /* Print.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C80FB5515FD2713004ABC94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C80FB2315FD2711004ABC94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C80FB2B15FD2711004ABC94;
+			remoteInfo = Trove;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C2BF24C15FF817800876710 /* GridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridView.h; sourceTree = "<group>"; };
+		4C2BF24D15FF817800876710 /* GridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridView.m; sourceTree = "<group>"; };
+		4C2BF25015FF953800876710 /* GridViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridViewCell.h; sourceTree = "<group>"; };
+		4C2BF25115FF953800876710 /* GridViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridViewCell.m; sourceTree = "<group>"; };
+		4C80FB2C15FD2711004ABC94 /* Trove.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trove.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C80FB3015FD2711004ABC94 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4C80FB3215FD2711004ABC94 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4C80FB3415FD2711004ABC94 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4C80FB3815FD2711004ABC94 /* Trove-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Trove-Info.plist"; sourceTree = "<group>"; };
+		4C80FB3A15FD2711004ABC94 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4C80FB3C15FD2711004ABC94 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4C80FB3E15FD2711004ABC94 /* Trove-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Trove-Prefix.pch"; sourceTree = "<group>"; };
+		4C80FB3F15FD2711004ABC94 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4C80FB4015FD2711004ABC94 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4C80FB4315FD2711004ABC94 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		4C80FB4615FD2711004ABC94 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		4C80FB4815FD2711004ABC94 /* AlbumViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlbumViewController.h; sourceTree = "<group>"; };
+		4C80FB4915FD2711004ABC94 /* AlbumViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlbumViewController.m; sourceTree = "<group>"; };
+		4C80FB5015FD2713004ABC94 /* TroveTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TroveTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C80FB5115FD2713004ABC94 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		4C80FB5915FD2713004ABC94 /* TroveTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TroveTests-Info.plist"; sourceTree = "<group>"; };
+		4C80FB5B15FD2713004ABC94 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4C80FB5D15FD2713004ABC94 /* TroveTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TroveTests.h; sourceTree = "<group>"; };
+		4C80FB5E15FD2713004ABC94 /* TroveTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TroveTests.m; sourceTree = "<group>"; };
+		4C80FB6E15FD2BB1004ABC94 /* TroveDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TroveDataModel.xcdatamodel; sourceTree = "<group>"; };
+		4C80FB7C15FD30A2004ABC94 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		4C80FB7E15FD3263004ABC94 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		4C80FB8015FD34E3004ABC94 /* Print.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Print.h; sourceTree = "<group>"; };
+		4C80FB8115FD34E3004ABC94 /* Print.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Print.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C80FB2915FD2711004ABC94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C80FB7F15FD3263004ABC94 /* AssetsLibrary.framework in Frameworks */,
+				4C80FB7D15FD30A2004ABC94 /* CoreData.framework in Frameworks */,
+				4C80FB3115FD2711004ABC94 /* UIKit.framework in Frameworks */,
+				4C80FB3315FD2711004ABC94 /* Foundation.framework in Frameworks */,
+				4C80FB3515FD2711004ABC94 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C80FB4C15FD2713004ABC94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C80FB5215FD2713004ABC94 /* SenTestingKit.framework in Frameworks */,
+				4C80FB5315FD2713004ABC94 /* UIKit.framework in Frameworks */,
+				4C80FB5415FD2713004ABC94 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C80FB2115FD2711004ABC94 = {
+			isa = PBXGroup;
+			children = (
+				4C80FB3615FD2711004ABC94 /* Trove */,
+				4C80FB5715FD2713004ABC94 /* TroveTests */,
+				4C80FB2F15FD2711004ABC94 /* Frameworks */,
+				4C80FB2D15FD2711004ABC94 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C80FB2D15FD2711004ABC94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C80FB2C15FD2711004ABC94 /* Trove.app */,
+				4C80FB5015FD2713004ABC94 /* TroveTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C80FB2F15FD2711004ABC94 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C80FB7E15FD3263004ABC94 /* AssetsLibrary.framework */,
+				4C80FB7C15FD30A2004ABC94 /* CoreData.framework */,
+				4C80FB3415FD2711004ABC94 /* CoreGraphics.framework */,
+				4C80FB3215FD2711004ABC94 /* Foundation.framework */,
+				4C80FB5115FD2713004ABC94 /* SenTestingKit.framework */,
+				4C80FB3015FD2711004ABC94 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4C80FB3615FD2711004ABC94 /* Trove */ = {
+			isa = PBXGroup;
+			children = (
+				4C80FB7015FD2BBC004ABC94 /* DataModel */,
+				4C80FB3F15FD2711004ABC94 /* AppDelegate.h */,
+				4C80FB4015FD2711004ABC94 /* AppDelegate.m */,
+				4C80FB4215FD2711004ABC94 /* MainStoryboard_iPhone.storyboard */,
+				4C80FB4515FD2711004ABC94 /* MainStoryboard_iPad.storyboard */,
+				4C80FB4815FD2711004ABC94 /* AlbumViewController.h */,
+				4C80FB4915FD2711004ABC94 /* AlbumViewController.m */,
+				4C80FB3715FD2711004ABC94 /* Supporting Files */,
+				4C2BF24C15FF817800876710 /* GridView.h */,
+				4C2BF24D15FF817800876710 /* GridView.m */,
+				4C2BF25015FF953800876710 /* GridViewCell.h */,
+				4C2BF25115FF953800876710 /* GridViewCell.m */,
+			);
+			path = Trove;
+			sourceTree = "<group>";
+		};
+		4C80FB3715FD2711004ABC94 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C80FB3815FD2711004ABC94 /* Trove-Info.plist */,
+				4C80FB3915FD2711004ABC94 /* InfoPlist.strings */,
+				4C80FB3C15FD2711004ABC94 /* main.m */,
+				4C80FB3E15FD2711004ABC94 /* Trove-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4C80FB5715FD2713004ABC94 /* TroveTests */ = {
+			isa = PBXGroup;
+			children = (
+				4C80FB5D15FD2713004ABC94 /* TroveTests.h */,
+				4C80FB5E15FD2713004ABC94 /* TroveTests.m */,
+				4C80FB5815FD2713004ABC94 /* Supporting Files */,
+			);
+			path = TroveTests;
+			sourceTree = "<group>";
+		};
+		4C80FB5815FD2713004ABC94 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C80FB5915FD2713004ABC94 /* TroveTests-Info.plist */,
+				4C80FB5A15FD2713004ABC94 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4C80FB7015FD2BBC004ABC94 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				4C80FB6D15FD2BB1004ABC94 /* TroveDataModel.xcdatamodeld */,
+				4C80FB8015FD34E3004ABC94 /* Print.h */,
+				4C80FB8115FD34E3004ABC94 /* Print.m */,
+			);
+			name = DataModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C80FB2B15FD2711004ABC94 /* Trove */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C80FB6215FD2713004ABC94 /* Build configuration list for PBXNativeTarget "Trove" */;
+			buildPhases = (
+				4C80FB2815FD2711004ABC94 /* Sources */,
+				4C80FB2915FD2711004ABC94 /* Frameworks */,
+				4C80FB2A15FD2711004ABC94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Trove;
+			productName = Trove;
+			productReference = 4C80FB2C15FD2711004ABC94 /* Trove.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C80FB4F15FD2713004ABC94 /* TroveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C80FB6515FD2713004ABC94 /* Build configuration list for PBXNativeTarget "TroveTests" */;
+			buildPhases = (
+				4C80FB4B15FD2713004ABC94 /* Sources */,
+				4C80FB4C15FD2713004ABC94 /* Frameworks */,
+				4C80FB4D15FD2713004ABC94 /* Resources */,
+				4C80FB4E15FD2713004ABC94 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C80FB5615FD2713004ABC94 /* PBXTargetDependency */,
+			);
+			name = TroveTests;
+			productName = TroveTests;
+			productReference = 4C80FB5015FD2713004ABC94 /* TroveTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C80FB2315FD2711004ABC94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Dana Smith";
+			};
+			buildConfigurationList = 4C80FB2615FD2711004ABC94 /* Build configuration list for PBXProject "Trove" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4C80FB2115FD2711004ABC94;
+			productRefGroup = 4C80FB2D15FD2711004ABC94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C80FB2B15FD2711004ABC94 /* Trove */,
+				4C80FB4F15FD2713004ABC94 /* TroveTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C80FB2A15FD2711004ABC94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C80FB3B15FD2711004ABC94 /* InfoPlist.strings in Resources */,
+				4C80FB4415FD2711004ABC94 /* MainStoryboard_iPhone.storyboard in Resources */,
+				4C80FB4715FD2711004ABC94 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C80FB4D15FD2713004ABC94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C80FB5C15FD2713004ABC94 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4C80FB4E15FD2713004ABC94 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C80FB2815FD2711004ABC94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C80FB3D15FD2711004ABC94 /* main.m in Sources */,
+				4C80FB4115FD2711004ABC94 /* AppDelegate.m in Sources */,
+				4C80FB4A15FD2711004ABC94 /* AlbumViewController.m in Sources */,
+				4C80FB6F15FD2BB1004ABC94 /* TroveDataModel.xcdatamodeld in Sources */,
+				4C80FB8215FD34E3004ABC94 /* Print.m in Sources */,
+				4C2BF24E15FF817800876710 /* GridView.m in Sources */,
+				4C2BF25215FF953800876710 /* GridViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C80FB4B15FD2713004ABC94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C80FB5F15FD2713004ABC94 /* TroveTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C80FB5615FD2713004ABC94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C80FB2B15FD2711004ABC94 /* Trove */;
+			targetProxy = 4C80FB5515FD2713004ABC94 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4C80FB3915FD2711004ABC94 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C80FB3A15FD2711004ABC94 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4C80FB4215FD2711004ABC94 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C80FB4315FD2711004ABC94 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		4C80FB4515FD2711004ABC94 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C80FB4615FD2711004ABC94 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		4C80FB5A15FD2713004ABC94 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C80FB5B15FD2713004ABC94 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C80FB6015FD2713004ABC94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4C80FB6115FD2713004ABC94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C80FB6315FD2713004ABC94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Trove/Trove-Prefix.pch";
+				INFOPLIST_FILE = "Trove/Trove-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4C80FB6415FD2713004ABC94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Trove/Trove-Prefix.pch";
+				INFOPLIST_FILE = "Trove/Trove-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4C80FB6615FD2713004ABC94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Trove.app/Trove";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Trove/Trove-Prefix.pch";
+				INFOPLIST_FILE = "TroveTests/TroveTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		4C80FB6715FD2713004ABC94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Trove.app/Trove";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Trove/Trove-Prefix.pch";
+				INFOPLIST_FILE = "TroveTests/TroveTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C80FB2615FD2711004ABC94 /* Build configuration list for PBXProject "Trove" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C80FB6015FD2713004ABC94 /* Debug */,
+				4C80FB6115FD2713004ABC94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C80FB6215FD2713004ABC94 /* Build configuration list for PBXNativeTarget "Trove" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C80FB6315FD2713004ABC94 /* Debug */,
+				4C80FB6415FD2713004ABC94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C80FB6515FD2713004ABC94 /* Build configuration list for PBXNativeTarget "TroveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C80FB6615FD2713004ABC94 /* Debug */,
+				4C80FB6715FD2713004ABC94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4C80FB6D15FD2BB1004ABC94 /* TroveDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4C80FB6E15FD2BB1004ABC94 /* TroveDataModel.xcdatamodel */,
+			);
+			currentVersion = 4C80FB6E15FD2BB1004ABC94 /* TroveDataModel.xcdatamodel */;
+			path = TroveDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4C80FB2315FD2711004ABC94 /* Project object */;
+}
